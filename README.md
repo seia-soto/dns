@@ -39,6 +39,7 @@ What DNS does is connecting the dots from IP address behind the domain names you
 So when the DNS service broken, the connections being lost on your device.
 Therefore you cannot use the internet properly without DNS service.
 However, I am hosting the server from my home and it's fact that the service is less stable than services hosted on datacenters.
+So if you apply this DNS, you might get excluded from internet society sometimes.
 
 ### Why
 
