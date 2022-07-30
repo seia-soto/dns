@@ -150,3 +150,4 @@ Some domain names are allowed forcibly by default to avoid incorrect blocking:
 - s.shopify.com
 - cdn.optimizely.com
 - tinyurl.com
+- github.com
