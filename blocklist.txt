@@ -1,6 +1,4 @@
-# Curated list from Filter-KR[^1] from HoJenog Go
-#
-# [^1]: https://github.com/seia-soto/filter-kr
+# Curated list from Filter-KR[^1] from HoJeong Go(@seia-soto on GitHub)
 
 # tracking
 analytics-script.ad-shield.io 0.0.0.0
