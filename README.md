@@ -81,8 +81,9 @@ Please, see [blocklist.txt](/blocklist.txt) for internal blocklist file applied 
 The followings are filters loaded on my service:
 
 ```bash
-# self
+# priority
 "https://get.dns.seia.io/blocklist.txt"
+"https://raw.githubusercontent.com/yous/YousList/master/hosts.txt"
 
 # suspicious
 "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt"

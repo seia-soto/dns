@@ -83,8 +83,9 @@ DNS가 하는 것은 IP 주소와 여러분이 웹 브라우저에 google-dot-co
 제 서비스에 등록된 필터들입니다.
 
 ```bash
-# self
+# priority
 "https://get.dns.seia.io/blocklist.txt"
+"https://raw.githubusercontent.com/yous/YousList/master/hosts.txt"
 
 # suspicious
 "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt"
@@ -151,3 +152,4 @@ DNS가 하는 것은 IP 주소와 여러분이 웹 브라우저에 google-dot-co
 - s.shopify.com
 - cdn.optimizely.com
 - tinyurl.com
+- github.com
