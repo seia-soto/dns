@@ -84,7 +84,7 @@ DNS가 하는 것은 IP 주소와 여러분이 웹 브라우저에 google-dot-co
 
 ```bash
 # self
-"https://raw.githubusercontent.com/seia-soto/dns/master/blocklist.txt"
+"https://get.dns.seia.io/blocklist.txt"
 
 # suspicious
 "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt"

@@ -82,7 +82,7 @@ The followings are filters loaded on my service:
 
 ```bash
 # self
-"https://raw.githubusercontent.com/seia-soto/dns/master/blocklist.txt"
+"https://get.dns.seia.io/blocklist.txt"
 
 # suspicious
 "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt"
