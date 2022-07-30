@@ -1,0 +1,13 @@
+# Curated list from Filter-KR[^1] from HoJenog Go
+#
+# [^1]: https://github.com/seia-soto/filter-kr
+
+# tracking
+analytics-script.ad-shield.io 0.0.0.0
+script.ifdo.co.kr
+wlog.ifdo.co.kr
+cdn.cresendo.net
+clickstream.cresendo.net
+fin.rainbownine.net
+loginside.co.kr
+cr.acecounter.com

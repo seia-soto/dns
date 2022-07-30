@@ -16,7 +16,7 @@ A DNS for lightweight privacy enhancement.
 
 **Installation**
 
-- iOS (14 or higher): https://private-statics.seia.io/dns/xstl-tls.mobileconfig
+- iOS (14 or higher): [https://private-statics.seia.io/dns/xstl-tls.mobileconfig](https://private-statics.seia.io/dns/xstl-tls.mobileconfig)
 
 Otherwise you can connect via `tls://dns.seia.io`.
 
@@ -77,9 +77,13 @@ You can see the list of filters I am applying and create an issue to resolve you
 
 #### Blocklist
 
+Please, see [blocklist.txt](/blocklist.txt) for internal blocklist file applied to my serivce.
 The followings are filters loaded on my service:
 
 ```bash
+# self
+"https://raw.githubusercontent.com/seia-soto/dns/master/blocklist.txt"
+
 # suspicious
 "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt"
 "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts"

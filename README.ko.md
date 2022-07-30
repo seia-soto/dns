@@ -16,7 +16,7 @@
 
 **설치**
 
-- iOS (14 또는 그 이상): https://private-statics.seia.io/dns/xstl-tls.mobileconfig
+- iOS (14 또는 그 이상): [https://private-statics.seia.io/dns/xstl-tls.mobileconfig](https://private-statics.seia.io/dns/xstl-tls.mobileconfig)
 
 혹은 `tls://dns.seia.io`로 연결할 수 있습니다.
 
@@ -79,9 +79,13 @@ DNS가 하는 것은 IP 주소와 여러분이 웹 브라우저에 google-dot-co
 
 #### Blocklist
 
+내부적으로 제 서비스에 등록된 차단 목록에 관해서는 [blocklist.txt](/blocklist.txt)를 확인해주세요.
 제 서비스에 등록된 필터들입니다.
 
 ```bash
+# self
+"https://raw.githubusercontent.com/seia-soto/dns/master/blocklist.txt"
+
 # suspicious
 "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt"
 "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts"
