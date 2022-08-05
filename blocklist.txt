@@ -9,6 +9,7 @@ clickstream.cresendo.net
 fin.rainbownine.net
 loginside.co.kr
 cr.acecounter.com
+googleads.g.doubleclick.net
 
 # malicious
 ovz1.j19544519.pr46m.vps.myjino.ru
