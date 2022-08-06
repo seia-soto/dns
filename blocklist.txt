@@ -10,6 +10,7 @@ fin.rainbownine.net
 loginside.co.kr
 cr.acecounter.com
 googleads.g.doubleclick.net
+publickeyservice.aws.privacysandboxservices.com
 
 # malicious
 ovz1.j19544519.pr46m.vps.myjino.ru
