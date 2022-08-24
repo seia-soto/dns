@@ -2,7 +2,7 @@
 
 [한국어](/README.ko.md)
 
-A DNS for lightweight privacy enhancement.
+A DNS for lightweight privacy enhancement. [(Updates)](/updates/index.md)
 
 | Type | Address           | Upstream                             | Host                      |
 |------|-------------------|--------------------------------------|---------------------------|
