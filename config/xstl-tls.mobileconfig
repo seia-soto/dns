@@ -9,7 +9,7 @@
 			<dict>
 				<key>DNSProtocol</key>
 				<string>TLS</string>
-                <key>ServerAddresses</key>
+        <key>ServerAddresses</key>
 				<array>
 					<string>116.121.57.145</string>
 					<string>146.56.47.250</string>
