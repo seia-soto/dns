@@ -4,9 +4,10 @@
 
 가벼운 개인정보 보호 향상을 위한 DNS. [(업데이트 내역)](/updates/index.md)
 
-| Type | Address           | Upstream                             | Host                      |
-|------|-------------------|--------------------------------------|---------------------------|
-| DoT  | tls://dns.seia.io | CloudFlare DNS with Malware blocking | SK Broadband, South Korea |
+| Type | Address                     | Upstream                             | Host                               |
+|------|-----------------------------|--------------------------------------|------------------------------------|
+| DoT  | tls://dns.seia.io           | CloudFlare DNS with Malware blocking | SK Broadband, South Korea          |
+| DoT  | tls://secondary.dns.seia.io | CloudFlare DNS with Malware blocking | Oracle Cloud Platform, South Korea |
 
 **기능**
 
@@ -16,9 +17,11 @@
 
 **설치**
 
-- iOS (14 또는 그 이상): [https://private-statics.seia.io/dns/xstl-tls.mobileconfig](https://private-statics.seia.io/dns/xstl-tls.mobileconfig)
+- iOS (14 또는 이상)
+  - 내부: [https://private-statics.seia.io/dns/xstl-tls.mobileconfig](https://private-statics.seia.io/dns/xstl-tls.mobileconfig)
+  - GitHub: [https://get.dns.seia.io/config/xstl-tls.mobileconfig](https://get.dns.seia.io/config/xstl-tls.mobileconfig)
 
-혹은 `tls://dns.seia.io`로 연결할 수 있습니다.
+모든 서버는 `tls://dns.seia.io`로 연결할 수 있습니다.
 
 ## Notes
 
