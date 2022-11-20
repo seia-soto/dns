@@ -154,3 +154,6 @@ Some domain names are allowed forcibly by default to avoid incorrect blocking:
 - cdn.optimizely.com
 - tinyurl.com
 - github.com
+- algolia.com
+- aluigi.altervista.org
+- media.discordapp.net
