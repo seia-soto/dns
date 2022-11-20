@@ -6,8 +6,8 @@
 
 | Type | Address                     | Upstream                             | Host                               |
 |------|-----------------------------|--------------------------------------|------------------------------------|
-| DoT  | tls://dns.seia.io           | CloudFlare DNS with Malware blocking | SK Broadband, South Korea          |
-| DoT  | tls://secondary.dns.seia.io | CloudFlare DNS with Malware blocking | Oracle Cloud Platform, South Korea |
+| DoT  | tls://dns.seia.io           | CloudFlare DNS | SK Broadband, South Korea          |
+| DoT  | tls://secondary.dns.seia.io | CloudFlare DNS | Oracle Cloud Platform, South Korea |
 
 **기능**
 
@@ -156,3 +156,6 @@ DNS가 하는 것은 IP 주소와 여러분이 웹 브라우저에 google-dot-co
 - cdn.optimizely.com
 - tinyurl.com
 - github.com
+- algolia.com
+- aluigi.altervista.org
+- media.discordapp.net

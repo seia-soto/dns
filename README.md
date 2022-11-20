@@ -6,8 +6,8 @@ A DNS for lightweight privacy enhancement. [(Updates)](/updates/index.md)
 
 | Type | Address                     | Upstream                             | Host                               |
 |------|-----------------------------|--------------------------------------|------------------------------------|
-| DoT  | tls://dns.seia.io           | CloudFlare DNS with Malware blocking | SK Broadband, South Korea          |
-| DoT  | tls://secondary.dns.seia.io | CloudFlare DNS with Malware blocking | Oracle Cloud Platform, South Korea |
+| DoT  | tls://dns.seia.io           | CloudFlare DNS | SK Broadband, South Korea          |
+| DoT  | tls://secondary.dns.seia.io | CloudFlare DNS | Oracle Cloud Platform, South Korea |
 
 **Features**
 
