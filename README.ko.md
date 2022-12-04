@@ -4,10 +4,12 @@
 
 가벼운 개인정보 보호 향상을 위한 DNS. [(업데이트 내역)](/updates/index.md)
 
+> 현재 요청이 보조 DNS로 우회될 수 있습니다. 업데이트 내역을 참고하세요.
+
 | Type | Address                     | Upstream                             | Host                               |
 |------|-----------------------------|--------------------------------------|------------------------------------|
-| DoT  | tls://dns.seia.io           | CloudFlare DNS | SK Broadband, South Korea          |
-| DoT  | tls://secondary.dns.seia.io | CloudFlare DNS | Oracle Cloud Platform, South Korea |
+| DoT  | tls://dns.seia.io           | CloudFlare DNS                       | SK Broadband, South Korea          |
+| DoT  | tls://secondary.dns.seia.io | CloudFlare DNS                       | Oracle Cloud Platform, South Korea |
 
 **기능**
 
