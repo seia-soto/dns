@@ -29,12 +29,10 @@ We migrated to SSD environment to solve the problem currently.
 
 ## Dec 2022, Outage
 
-In Dec 2022, the problem still exists.
-We're investigating the problem and requested the support from the networking team.
+### Reason
+
+The network was configured fasly to face each other.
 
 ### Schedules and changes
 
-We're trying possible solutions such as re-deploying the network devices fast at our end before the support arrives.
-However, we indirected all requests to the secondary DNS as the problem still exists.
-The requests will go to the primary server as the recovery ends.
-The problem is likely to recovered before December 7 2022, as the maximum fix period is expected to 3 days.
+We fixed the upstream issue and preparing to upgrade connections via primary server.
