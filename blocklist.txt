@@ -11,6 +11,15 @@ loginside.co.kr
 cr.acecounter.com
 googleads.g.doubleclick.net
 publickeyservice.aws.privacysandboxservices.com
+sdk.iad-05.braze.com
+data-logdelivery.wconcept.co.kr
+collector-statistics.nhn-commerce.com
+las.danawa.com
+fair-1285.com
+wb-tt.com
+wn-xg.com
+gst.groobee.io
+www.mediacategory.com
 
 # malicious
 ovz1.j19544519.pr46m.vps.myjino.ru
