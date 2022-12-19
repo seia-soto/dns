@@ -6,8 +6,8 @@ A DNS for lightweight privacy enhancement. [(Updates)](/updates/index.md)
 
 | Type | Address                     | Upstream                             | Host                               |
 |------|-----------------------------|--------------------------------------|------------------------------------|
-| DoT  | tls://dns.seia.io           | CloudFlare DNS | SK Broadband, South Korea          |
-| DoT  | tls://secondary.dns.seia.io | CloudFlare DNS | Oracle Cloud Platform, South Korea |
+| DoT  | tls://dns.seia.io           | CloudFlare DNS                       | SK Broadband, South Korea          |
+| DoT  | tls://secondary.dns.seia.io | CloudFlare DNS                       | Oracle Cloud Platform, South Korea |
 
 **Features**
 
@@ -18,7 +18,6 @@ A DNS for lightweight privacy enhancement. [(Updates)](/updates/index.md)
 **Installation**
 
 - iOS (14 or higher)
-  - Internal: [https://private-statics.seia.io/dns/xstl-tls.mobileconfig](https://private-statics.seia.io/dns/xstl-tls.mobileconfig)
   - GitHub: [https://get.dns.seia.io/config/xstl-tls.mobileconfig](https://get.dns.seia.io/config/xstl-tls.mobileconfig)
 
 You can connect all servers via `tls://dns.seia.io`.

@@ -6,8 +6,8 @@
 
 | Type | Address                     | Upstream                             | Host                               |
 |------|-----------------------------|--------------------------------------|------------------------------------|
-| DoT  | tls://dns.seia.io           | CloudFlare DNS | SK Broadband, South Korea          |
-| DoT  | tls://secondary.dns.seia.io | CloudFlare DNS | Oracle Cloud Platform, South Korea |
+| DoT  | tls://dns.seia.io           | CloudFlare DNS                       | SK Broadband, South Korea          |
+| DoT  | tls://secondary.dns.seia.io | CloudFlare DNS                       | Oracle Cloud Platform, South Korea |
 
 **기능**
 
@@ -18,7 +18,6 @@
 **설치**
 
 - iOS (14 또는 이상)
-  - 내부: [https://private-statics.seia.io/dns/xstl-tls.mobileconfig](https://private-statics.seia.io/dns/xstl-tls.mobileconfig)
   - GitHub: [https://get.dns.seia.io/config/xstl-tls.mobileconfig](https://get.dns.seia.io/config/xstl-tls.mobileconfig)
 
 모든 서버는 `tls://dns.seia.io`로 연결할 수 있습니다.
