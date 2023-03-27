@@ -2,6 +2,8 @@
 
 # tracking
 analytics-script.ad-shield.io 0.0.0.0
+31830fbc-adbf-11ed-afa1-0242ac120002.site
+15823f12-289e-4189-9e51-e2de1bf1a105.online
 script.ifdo.co.kr
 wlog.ifdo.co.kr
 cdn.cresendo.net
