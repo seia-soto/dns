@@ -36,11 +36,13 @@
 	<key>PayloadDescription</key>
 	<string>Adds the Xstl Encrypted DNS to Big Sur and iOS 14 based or higher systems</string>
 	<key>PayloadDisplayName</key>
-	<string>Xstl DNS over TLS (rev20221205)</string>
+	<string>Xstl DNS over TLS (rev20230408)</string>
 	<key>PayloadIdentifier</key>
-	<string>com.paulmillr.apple-dns</string>
+	<string>io.seia.dns</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
