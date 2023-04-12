@@ -22,6 +22,7 @@ wb-tt.com
 wn-xg.com
 gst.groobee.io
 www.mediacategory.com
+pxl.retaku.net
 
 # malicious
 ovz1.j19544519.pr46m.vps.myjino.ru
