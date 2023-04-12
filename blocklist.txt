@@ -23,6 +23,8 @@ wn-xg.com
 gst.groobee.io
 www.mediacategory.com
 pxl.retaku.net
+cdn.smlog.co.kr
+a25.smlog.co.kr
 
 # malicious
 ovz1.j19544519.pr46m.vps.myjino.ru
