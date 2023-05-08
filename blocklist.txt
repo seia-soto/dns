@@ -27,6 +27,7 @@ cdn.smlog.co.kr
 a25.smlog.co.kr
 jslog.coupang.com
 ljc.coupang.com
+jnn-pa.googleapis.com
 
 # malicious
 ovz1.j19544519.pr46m.vps.myjino.ru
