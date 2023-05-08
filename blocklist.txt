@@ -28,6 +28,7 @@ a25.smlog.co.kr
 jslog.coupang.com
 ljc.coupang.com
 jnn-pa.googleapis.com
+dadispapi.gmarket.co.kr
 
 # malicious
 ovz1.j19544519.pr46m.vps.myjino.ru
