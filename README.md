@@ -2,7 +2,7 @@
 
 [한국어](/README.ko.md)
 
-A DNS for lightweight privacy enhancement. [(Updates)](/updates/index.md)
+Xstl DNS is public DNS service enhances the privacy level with minimal overhead in the common use. [(Updates)](/updates/index.md)
 
 | Type | Address                     | Upstream                             | Host                               |
 |------|-----------------------------|--------------------------------------|------------------------------------|
@@ -11,55 +11,50 @@ A DNS for lightweight privacy enhancement. [(Updates)](/updates/index.md)
 
 **Features**
 
-- Lightweight privacy enhancement by reducting ads, trackers, and malwares host.
-- Upstream server is CloudFlare which is Super-fast and fair.
-- Privacy first logging policy doesn't contain any personal information.
+- Block hosts serves ads or trackers
+- Use CloudFlare as upstream DNS
+- DO NOT log any personal information by logging policy
 
 **Installation**
 
-- iOS (14 or higher)
+> If you're using the profile distributed before July 2023, you should update your profile by removing and reinstalling.
+
+- Apple Devices (iOS 14 or higher)
   - GitHub: [https://get.dns.seia.io/config/xstl-tls.mobileconfig](https://get.dns.seia.io/config/xstl-tls.mobileconfig)
+- Android Devices
+  - Set privacy DNS value to `dns.seia.io` in Network Settings.
 
 You can connect all servers via `tls://dns.seia.io`.
 
 ## Notes
 
-Things you need to know before applying this DNS.
+There are things that you need to know before applying the DNS to your device.
 
 ### Encrypted DNS
 
-Encrypted DNS offers you a chance to hide your exposed paths on web from ISP(Internet Service Provider) or upstream network managers since the common DNS packet is pure text.
-There are two typical types of common encrypted DNS services: DoT(DNS over TLS, port 853) and DoH(DNS over Https, port 443), and both works when the connection established over valid certificate.
+Encrypted DNS hides its queries from Internet Service Providers by wrapping the packet using TLS tunnel or TLS-like protocol.
+There are two ways to provide encrypted DNS typically.
 
-I provide DoT service for lower overhead.
+> DoT(DNS over TLS, port 853) and DoH(DNS over Https, port 443), and both works when the connection established over valid certificate.
+
+I provide DoT service to minimize the overhead.
 
 ### DNS and Internet
 
-Internet is the place we spend every second.
-So if your internet lost connection, you might panic, and the cause can be DNS.
-What DNS does is connecting the dots from IP address behind the domain names you type on your web browser like google-dot-com.
-So when the DNS service broken, the connections being lost on your device.
-Therefore you cannot use the internet properly without DNS service.
-However, I am hosting the server from my home and it's fact that the service is less stable than services hosted on datacenters.
-So if you apply this DNS, you might get excluded from internet society sometimes.
+DNS can be the failure point when internet disconnects temporarilly.
+DNS server works as a phone book by linking the website address and real IP address.
+So the outage of DNS server make the use of Internet unable.
 
 ### Why
 
-Here's the reasons:
+Xstl DNS can be a better alternative if you're already using the service from AdGuard or third-party ad blockers.
 
-- If you concern the extra bettery consumption while using filtering applications like AdGuard.
-- If you want to apply the basic level tracking reduction and safety to devices cannot install ad blockers.
-- If you feel similar services or AdGuard DNS is slow or requires only lightweight system-wide ad blocking.
-- If you need to query the same domain name in high rate but concerns rate limit.
-- If you feel you're tracked by typical services.
+- If you concern the extra bettery consumption while using the DNS filtering applications like AdGuard.
+- If you want to apply system-wide ad blocking.
+- If you feel the AdGuard DNS and typical DNS services are slow in Korea or you concern about being rate limited
 
-As you expect:
-
-+ Applying encrypted DNS is supported by system side on iOS.
-+ I do apply filters to the DNS server.
-+ The server is located on Suwon-si, South Korea.
-+ I do not rate-limit your request.
-+ I don't log your personal information like IP address by placing the server behind virtual bridge interface.
+Our DNS doesn't collect users' IP address when logging.
+All instances are running behind of virtual bridge interface and the bridge is not forwarding any user information.
 
 **Comments**
 
@@ -67,20 +62,17 @@ As you expect:
 
 ### Tracking Reduction
 
-The type of privacy I am applying to the DNS service is TR(Tracking Reduction).
-You can see the list of filters I am applying and create an issue to resolve your connection issue.
+The type of privacy applied on this DNS service is TR.
 
 - [Two types of privacy by Rohan Kumar](https://seirdy.one/posts/2022/06/25/two-types-of-privacy/)
 
 **Comments**
 
-- Every filters are refreshed every 5 minutes.
-- The changes can be delayed up to 10 minutes on the server-side and the delay can be longer on client-side by caching preference.
+- Every filters are refreshed every 15 minutes.
 
 #### Blocklist
 
-Please, see [blocklist.txt](/blocklist.txt) for internal blocklist file applied to my serivce.
-The followings are filters loaded on my service:
+See [blocklist.txt](/blocklist.txt) for blocklist file applied to my serivce.
 
 ```bash
 # priority

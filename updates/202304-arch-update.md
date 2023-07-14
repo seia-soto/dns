@@ -2,8 +2,6 @@
 
 [한국어](/202304-arch-update.ko.md)
 
-A DNS for lightweight privacy enhancement.
-
 ---
 
 # Feb 2023, Arch update

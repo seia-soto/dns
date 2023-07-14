@@ -2,8 +2,6 @@
 
 [English](/202212-outages-and-slowdowns.md)
 
-가벼운 개인정보 보호 향상을 위한 DNS.
-
 ---
 
 # 2022년 12월, 서비스 끊김 및 느려짐 현상

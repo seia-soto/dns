@@ -2,8 +2,6 @@
 
 [한국어](/202212-outages-and-slowdowns.ko.md)
 
-A DNS for lightweight privacy enhancement.
-
 ---
 
 # Dec 2022, Outages and slowdowns

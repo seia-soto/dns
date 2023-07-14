@@ -2,8 +2,6 @@
 
 [한국어](/202208-secondary-dns.ko.md)
 
-A DNS for lightweight privacy enhancement.
-
 ---
 
 # Introducing secondary DNS

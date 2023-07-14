@@ -2,8 +2,6 @@
 
 [English](/202208-secondary-dns.md)
 
-가벼운 개인정보 보호 향상을 위한 DNS.
-
 ---
 
 # 보조 DNS를 소개합니다
