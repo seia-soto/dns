@@ -1,69 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>PayloadContent</key>
-    <array>
-      <dict>
-        <key>DNSSettings</key>
-        <dict>
-          <key>DNSProtocol</key>
-          <string>HTTPS</string>
-          <key>ServerAddresses</key>
-          <array>
-            <string>116.121.57.111</string>
-          </array>
-          <key>ServerURL</key>
-          <string>dns.seia.io</string>
-        </dict>
-        <key>OnDemandRules</key>
-        <array>
-          <dict>
-            <key>Action</key>
-            <string>Connect</string>
-            <key>InterfaceTypeMatch</key>
-            <string>WiFi</string>
-          </dict>
-          <dict>
-            <key>Action</key>
-            <string>Connect</string>
-            <key>InterfaceTypeMatch</key>
-            <string>Cellular</string>
-          </dict>
-          <dict>
-            <key>Action</key>
-            <string>Disconnect</string>
-          </dict>
-        </array>
-        <key>PayloadDescription</key>
-        <string>Configures device to use Xstl DoH (rev20231010) Encrypted DNS over HTTPS</string>
-        <key>PayloadDisplayName</key>
-        <string>Xstl DoH (rev20231010) DNS over HTTPS</string>
-        <key>PayloadIdentifier</key>
-        <string>com.apple.dnsSettings.managed.6a687447-c275-4502-8a9f-7f41f6a256f6</string>
-        <key>PayloadType</key>
-        <string>com.apple.dnsSettings.managed</string>
-        <key>PayloadUUID</key>
-        <string>e5706b18-cb1b-4497-aa4b-e9333a0171f1</string>
-        <key>PayloadVersion</key>
-        <integer>1</integer>
-        <key>ProhibitDisablement</key>
-        <false/>
-      </dict>
-    </array>
-    <key>PayloadDescription</key>
-    <string>Adds different encrypted DNS configurations to Big Sur (or newer) and iOS 14 (or newer) based systems</string>
-    <key>PayloadDisplayName</key>
-    <string>Encrypted DNS (DoH)</string>
-    <key>PayloadIdentifier</key>
-    <string>com.notjakob.apple-dns.861fd8bd-b9cf-41f9-bb17-224997540de3</string>
-    <key>PayloadRemovalDisallowed</key>
-    <false/>
-    <key>PayloadType</key>
-    <string>Configuration</string>
-    <key>PayloadUUID</key>
-    <string>afbf41c1-7d05-4ad0-891b-0383c763feb2</string>
-    <key>PayloadVersion</key>
-    <integer>1</integer>
-  </dict>
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>116.121.57.111</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://dns.seia.io/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use Xstl eDNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>Xstl eDNS over HTTPS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.D5089A3E-F134-4691-AC66-3818E6706374</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>8F5FAA25-5FCA-4F38-80C2-42E45410A286</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Adds the Xstl eDNS over HTTPS to Big Sur and iOS 14 based systems</string>
+	<key>PayloadDisplayName</key>
+	<string>Xstl eDNS over HTTPS (rev20231010)</string>
+	<key>PayloadIdentifier</key>
+	<string>io.seia.dns.https</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>FDDB005F-D954-4DEA-A189-DADDEB4ECB6B</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
 </plist>
