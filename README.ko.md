@@ -4,10 +4,10 @@
 
 Xstl DNS는 평소 사용에 최소한의 오버헤드로 개인정보 보호 수준을 향상할 수 있는 공개 DNS 서비스입니다. [(업데이트 내역)](/updates/index.md)
 
-| Type | Address                     | Upstream                             | Host                               |
-|------|-----------------------------|--------------------------------------|------------------------------------|
-| DoT  | tls://dns.seia.io           | CloudFlare DNS                       | SK Broadband, South Korea          |
-| DoT  | tls://secondary.dns.seia.io | CloudFlare DNS                       | Oracle Cloud Platform, South Korea |
+| Type               | Address                     | Upstream                             | Host                               |
+|--------------------|-----------------------------|--------------------------------------|------------------------------------|
+| DoP, DoT, DoH (h3) | tls://dns.seia.io           | CloudFlare DNS                       | SK Broadband, South Korea          |
+| DoT, DoT, DoH (h3) | tls://secondary.dns.seia.io | CloudFlare DNS                       | Oracle Cloud Platform, South Korea |
 
 **특징**
 
@@ -17,12 +17,16 @@ Xstl DNS는 평소 사용에 최소한의 오버헤드로 개인정보 보호 �
 
 **설치**
 
-> Apple 기기에서 2023년 7월 전에 배포된 프로파일을 사용하고 계시다면 기존 프로파일을 제거 후 재설치해야 합니다.
+> Apple 기기에서 2023년 10월 전에 배포된 프로파일을 사용하고 계시다면 기존 프로파일을 제거 후 재설치해야 합니다.
 
 - Apple 기기 (iOS 14 이상)
-  - GitHub: [https://get.dns.seia.io/config/xstl-tls.mobileconfig](https://get.dns.seia.io/config/xstl-tls.mobileconfig)
+  - DoT: [https://get.dns.seia.io/config/xstl-tls.mobileconfig](https://get.dns.seia.io/config/xstl-tls.mobileconfig)
+  - DoH (보조 DNS는 지원되지 않음): [https://get.dns.seia.io/config/xstl-https.mobileconfig](https://get.dns.seia.io/config/xstl-https.mobileconfig)
 - Android 기기
-  - 네트워크 설정에서 보안 DNS 값을 `dns.seia.io`로 설정하십시오.
+  - 네트워크 설정에서 보안 DNS를 `dns.seia.io`로 설정하세요.
+- 다른 기기 (혹은 보안 연결없는 DNS)
+  - 주 DNS 값을 `116.121.57.111`로 설정하세요.
+  - 보조 DNS 값을 `140.238.14.191`로 설정하세요.
 
 모든 서버는 `tls://dns.seia.io`로 연결할 수 있습니다.
 
@@ -152,3 +156,9 @@ Xstl DNS는 안정적인 서비스를 제공하기 위해 최선을 다하고 �
 - algolia.com
 - aluigi.altervista.org
 - media.discordapp.net
+
+#### Exceptions
+
+아래 항목은 CloudFlare DNS (1.1.1.1)에서 발생하는 문제를 피하기 위해 Google DNS (8.8.8.8)에서 가져옵니다.
+
+- hyundaicard.com

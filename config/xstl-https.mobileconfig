@@ -8,13 +8,12 @@
         <key>DNSSettings</key>
         <dict>
           <key>DNSProtocol</key>
-          <string>TLS</string>
+          <string>HTTPS</string>
           <key>ServerAddresses</key>
           <array>
             <string>116.121.57.111</string>
-            <string>140.238.14.191</string>
           </array>
-          <key>ServerName</key>
+          <key>ServerURL</key>
           <string>dns.seia.io</string>
         </dict>
         <key>OnDemandRules</key>
@@ -37,15 +36,15 @@
           </dict>
         </array>
         <key>PayloadDescription</key>
-        <string>Configures device to use Xstl DoT (rev20231010) Encrypted DNS over TLS</string>
+        <string>Configures device to use Xstl DoH (rev20231010) Encrypted DNS over HTTPS</string>
         <key>PayloadDisplayName</key>
-        <string>Xstl DoT (rev20231010) DNS over TLS</string>
+        <string>Xstl DoH (rev20231010) DNS over HTTPS</string>
         <key>PayloadIdentifier</key>
-        <string>com.apple.dnsSettings.managed.98eade15-9cfd-4b63-9353-d8939e3fecd8</string>
+        <string>com.apple.dnsSettings.managed.6a687447-c275-4502-8a9f-7f41f6a256f6</string>
         <key>PayloadType</key>
         <string>com.apple.dnsSettings.managed</string>
         <key>PayloadUUID</key>
-        <string>9c708327-5f84-4b7b-aea2-7f702d44d70c</string>
+        <string>e5706b18-cb1b-4497-aa4b-e9333a0171f1</string>
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>ProhibitDisablement</key>
@@ -55,15 +54,15 @@
     <key>PayloadDescription</key>
     <string>Adds different encrypted DNS configurations to Big Sur (or newer) and iOS 14 (or newer) based systems</string>
     <key>PayloadDisplayName</key>
-    <string>Encrypted DNS (DoT)</string>
+    <string>Encrypted DNS (DoH)</string>
     <key>PayloadIdentifier</key>
-    <string>com.notjakob.apple-dns.333b0233-244c-405e-96ee-920a7272cb68</string>
+    <string>com.notjakob.apple-dns.861fd8bd-b9cf-41f9-bb17-224997540de3</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>e34b2530-3e38-4492-95d9-a7afea6939ab</string>
+    <string>afbf41c1-7d05-4ad0-891b-0383c763feb2</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
   </dict>

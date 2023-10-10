@@ -4,10 +4,10 @@
 
 Xstl DNS is public DNS service enhances the privacy level with minimal overhead in the common use. [(Updates)](/updates/index.md)
 
-| Type | Address                     | Upstream                             | Host                               |
-|------|-----------------------------|--------------------------------------|------------------------------------|
-| DoT  | tls://dns.seia.io           | CloudFlare DNS                       | SK Broadband, South Korea          |
-| DoT  | tls://secondary.dns.seia.io | CloudFlare DNS                       | Oracle Cloud Platform, South Korea |
+| Type               | Address                     | Upstream                             | Host                               |
+|--------------------|-----------------------------|--------------------------------------|------------------------------------|
+| DoP, DoT, DoH (h3) | tls://dns.seia.io           | CloudFlare DNS                       | SK Broadband, South Korea          |
+| DoT, DoT, DoH (h3) | tls://secondary.dns.seia.io | CloudFlare DNS                       | Oracle Cloud Platform, South Korea |
 
 **Features**
 
@@ -17,14 +17,18 @@ Xstl DNS is public DNS service enhances the privacy level with minimal overhead 
 
 **Installation**
 
-> If you're using the profile distributed before July 2023, you should update your profile by removing and reinstalling.
+> If you're using the profile distributed before Oct 2023, you should update your profile by removing and reinstalling.
 
 - Apple Devices (iOS 14 or higher)
-  - GitHub: [https://get.dns.seia.io/config/xstl-tls.mobileconfig](https://get.dns.seia.io/config/xstl-tls.mobileconfig)
+  - DoT: [https://get.dns.seia.io/config/xstl-tls.mobileconfig](https://get.dns.seia.io/config/xstl-tls.mobileconfig)
+  - DoH (Secondary DNS not supported): [https://get.dns.seia.io/config/xstl-https.mobileconfig](https://get.dns.seia.io/config/xstl-https.mobileconfig)
 - Android Devices
   - Set privacy DNS value to `dns.seia.io` in Network Settings.
+- Other devices (or unencrypted DNS)
+  - Set primary DNS value to `116.121.57.111`.
+  - Set secondary DNS value to `140.238.14.191`.
 
-You can connect all servers via `tls://dns.seia.io`.
+You can connect all servers via `tls://dns.seia.io` or `https://dns.seia.io`.
 
 ## Notes
 
@@ -68,7 +72,7 @@ The type of privacy applied on this DNS service is TR.
 
 **Comments**
 
-- Every filters are refreshed every 15 minutes.
+- Every filters are refreshed every 1 hour.
 
 #### Blocklist
 
@@ -148,3 +152,9 @@ Some domain names are allowed forcibly by default to avoid incorrect blocking:
 - algolia.com
 - aluigi.altervista.org
 - media.discordapp.net
+
+#### Exceptions
+
+Some domain names are loaded from Google DNS (8.8.8.8) to avoid service breakage with CloudFlare DNS (1.1.1.1):
+
+- hyundaicard.com
