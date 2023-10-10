@@ -22,6 +22,7 @@ Xstl DNS is public DNS service enhances the privacy level with minimal overhead 
 - Apple Devices (iOS 14 or higher)
   - DoT: [https://get.dns.seia.io/config/xstl-tls.mobileconfig](https://get.dns.seia.io/config/xstl-tls.mobileconfig)
   - DoH (Secondary DNS not supported): [https://get.dns.seia.io/config/xstl-https.mobileconfig](https://get.dns.seia.io/config/xstl-https.mobileconfig)
+  - DoP (unencrypted DNS for global setting): Switch via `sudo networksetup -setdnsservers Wi-Fi 116.121.57.111 140.238.14.191` and `sudo networksetup -setdnsservers Wi-Fi empty`
 - Android Devices
   - Set privacy DNS value to `dns.seia.io` in Network Settings.
 - Other devices (or unencrypted DNS)
