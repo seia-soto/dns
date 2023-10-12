@@ -5,3 +5,4 @@
 - [202302: Outage](./202302-outage.md)
 - [202304: Arch update](./202304-arch-update.md)
 - [202307: Outage](./202307-outage.md)
+- [202310: Arch Update](./202310-arch-update.md)
