@@ -1,6 +1,6 @@
 # [Xstl encrypted DNS](/)
 
-[English](/202212-outages-and-slowdowns.md)
+[English](./202212-outages-and-slowdowns.md)
 
 ---
 

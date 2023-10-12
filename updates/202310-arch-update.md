@@ -1,6 +1,6 @@
 # [Xstl encrypted DNS](/)
 
-[한국어](/202310-arch-update.ko.md)
+[한국어](./202310-arch-update.ko.md)
 
 ---
 

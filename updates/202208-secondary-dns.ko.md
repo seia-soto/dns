@@ -1,6 +1,6 @@
 # [Xstl encrypted DNS](/)
 
-[English](/202208-secondary-dns.md)
+[English](./202208-secondary-dns.md)
 
 ---
 

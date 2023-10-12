@@ -1,6 +1,6 @@
 # [Xstl encrypted DNS](/)
 
-[한국어](/202208-secondary-dns.ko.md)
+[한국어](./202208-secondary-dns.ko.md)
 
 ---
 

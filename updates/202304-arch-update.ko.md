@@ -1,6 +1,6 @@
 # [Xstl encrypted DNS](/)
 
-[English](/202304-arch-update.md)
+[English](./202304-arch-update.md)
 
 ---
 

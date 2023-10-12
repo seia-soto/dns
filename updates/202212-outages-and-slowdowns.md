@@ -1,6 +1,6 @@
 # [Xstl encrypted DNS](/)
 
-[한국어](/202212-outages-and-slowdowns.ko.md)
+[한국어](./202212-outages-and-slowdowns.ko.md)
 
 ---
 
