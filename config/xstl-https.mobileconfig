@@ -12,6 +12,7 @@
 				<key>ServerAddresses</key>
 				<array>
 					<string>116.121.57.111</string>
+					<string>140.238.14.191</string>
 				</array>
 				<key>ServerURL</key>
 				<string>https://dns.seia.io/dns-query</string>
@@ -35,7 +36,7 @@
 	<key>PayloadDescription</key>
 	<string>Adds the Xstl eDNS over HTTPS to Big Sur and iOS 14 based systems</string>
 	<key>PayloadDisplayName</key>
-	<string>Xstl eDNS over HTTPS (rev20231010)</string>
+	<string>Xstl eDNS over HTTPS (rev20231012)</string>
 	<key>PayloadIdentifier</key>
 	<string>io.seia.dns.https</string>
 	<key>PayloadRemovalDisallowed</key>

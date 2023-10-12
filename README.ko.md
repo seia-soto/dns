@@ -21,7 +21,7 @@ Xstl DNS는 평소 사용에 최소한의 오버헤드로 개인정보 보호 �
 
 - Apple 기기 (iOS 14 이상)
   - DoT: [https://get.dns.seia.io/config/xstl-tls.mobileconfig](https://get.dns.seia.io/config/xstl-tls.mobileconfig)
-  - DoH (보조 DNS는 지원되지 않음): [https://get.dns.seia.io/config/xstl-https.mobileconfig](https://get.dns.seia.io/config/xstl-https.mobileconfig)
+  - DoH: [https://get.dns.seia.io/config/xstl-https.mobileconfig](https://get.dns.seia.io/config/xstl-https.mobileconfig)
   - DoP (전역 설정을 위한 평문 DNS): `sudo networksetup -setdnsservers Wi-Fi 116.121.57.111 140.238.14.191`와 `sudo networksetup -setdnsservers Wi-Fi empty`로 전환
 - Android 기기
   - 네트워크 설정에서 보안 DNS를 `dns.seia.io`로 설정하세요.
