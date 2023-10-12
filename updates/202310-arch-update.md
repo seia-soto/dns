@@ -4,7 +4,7 @@
 
 ---
 
-# 2023년 10월, Arch update
+# Oct 2023, Arch update
 
 This is DNS operation team.
 There were several improvements and architecture rebuilding to improve the stability of the secondary DNS of Xstl encrypted DNS.
