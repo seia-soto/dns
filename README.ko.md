@@ -4,10 +4,10 @@
 
 Xstl DNS는 평소 사용에 최소한의 오버헤드로 개인정보 보호 수준을 향상할 수 있는 공개 DNS 서비스입니다. [(업데이트 내역)](/updates/index.md)
 
-| Type               | Address                     | Upstream                             | Host                               |
-|--------------------|-----------------------------|--------------------------------------|------------------------------------|
-| DoP, DoT, DoH (h3) | tls://dns.seia.io           | CloudFlare DNS                       | SK Broadband, South Korea          |
-| DoT, DoT, DoH (h3) | tls://secondary.dns.seia.io | CloudFlare DNS                       | Oracle Cloud Platform, South Korea |
+| Type                | Address                     | Upstream                             | Host                               |
+|---------------------|-----------------------------|--------------------------------------|------------------------------------|
+| Do53, DoT, DoH (h3) | tls://dns.seia.io           | CloudFlare DNS                       | SK Broadband, South Korea          |
+| Do53, DoT, DoH (h3) | tls://secondary.dns.seia.io | CloudFlare DNS                       | Oracle Cloud Platform, South Korea |
 
 **특징**
 

@@ -4,10 +4,10 @@
 
 Xstl DNS is public DNS service enhances the privacy level with minimal overhead in the common use. [(Updates)](/updates/index.md)
 
-| Type               | Address                     | Upstream                             | Host                               |
-|--------------------|-----------------------------|--------------------------------------|------------------------------------|
-| DoP, DoT, DoH (h3) | tls://dns.seia.io           | CloudFlare DNS                       | SK Broadband, South Korea          |
-| DoT, DoT, DoH (h3) | tls://secondary.dns.seia.io | CloudFlare DNS                       | Oracle Cloud Platform, South Korea |
+| Type                | Address                     | Upstream                             | Host                               |
+|---------------------|-----------------------------|--------------------------------------|------------------------------------|
+| Do53, DoT, DoH (h3) | tls://dns.seia.io           | CloudFlare DNS                       | SK Broadband, South Korea          |
+| Do53, DoT, DoH (h3) | tls://secondary.dns.seia.io | CloudFlare DNS                       | Oracle Cloud Platform, South Korea |
 
 **Features**
 
