@@ -53,6 +53,7 @@ jslog.coupang.com
 ljc.coupang.com
 jnn-pa.googleapis.com
 dadispapi.gmarket.co.kr
+ca-api.cafe24data.com
 
 # malicious
 ovz1.j19544519.pr46m.vps.myjino.ru
