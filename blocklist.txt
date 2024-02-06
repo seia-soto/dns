@@ -1,5 +1,8 @@
 # Curated list from Filter-KR from HoJeong Go(@seia-soto on GitHub)
 
+# ad
+ad.planbplus.co.kr
+
 # tracking
 analytics-script.ad-shield.io 0.0.0.0
 31830fbc-adbf-11ed-afa1-0242ac120002.site
