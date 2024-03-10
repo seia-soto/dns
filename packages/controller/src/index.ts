@@ -1,5 +1,5 @@
 import {writeFile} from 'fs/promises';
-import {useDomains} from './converter/index.js';
+import {convert} from './converter/index.js';
 import {useFilterList} from './fetcher/index.js';
 import {subscriptions} from './subscriptions.js';
 
@@ -18,7 +18,7 @@ const main = async () => {
 		console.timeEnd(subscription.name + ':acquire');
 		console.time(subscription.name + ':parse');
 
-		const result = useDomains(filterList.content);
+		const result = convert(filterList.content);
 
 		console.log(`> found ${result.blocked.size} domain entries from ${subscription.name}`);
 

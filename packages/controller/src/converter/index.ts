@@ -1,4 +1,4 @@
-export const useDomains = (lines: string) => {
+export const convert = (lines: string) => {
 	const pattern = /^(?:(?:@@)?\|\||\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\s*)?([\w.-]+\.[a-zA-Z]+)(?:\^|\s*\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})?\s*$/gm;
 	const allowed = new Set<string>();
 	const blocked = new Set<string>();
