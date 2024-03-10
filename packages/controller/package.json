@@ -1,0 +1,27 @@
+{
+  "name": "controller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/index.js",
+	"type": "module",
+  "scripts": {
+		"start": "node --import tsimp/import src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "HoJeong Go <seia@outlook.kr>",
+  "license": "ISC",
+  "dependencies": {
+    "@cliqz/adblocker": "^1.26.16",
+    "got": "^14.2.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "eslint": "^8.57.0",
+    "eslint-config-xo": "^0.44.0",
+    "eslint-config-xo-typescript": "^4.0.0",
+    "typescript": "^5.4.2"
+  }
+}

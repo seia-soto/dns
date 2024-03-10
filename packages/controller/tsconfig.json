@@ -1,0 +1,25 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"typeRoots": [
+			"./node_modules/@types",
+			"../../node_modules/@types"
+		],
+		"paths": {
+			"got": [
+				"./node_modules/got/dist/source"
+			]
+		},
+
+		"outDir": "./out"
+	},
+	"tsimp": {
+		"compilerOptions": {
+			"paths": {
+				"got": [
+					"./node_modules/got"
+				]
+			}
+		}
+	}
+}
